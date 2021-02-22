@@ -9,5 +9,10 @@ import UIKit
 import Firebase
 
 class MainClass: NSObject {
+//
+//    func enable() {
+//        FirebaseApp.configure()
+//        Analytics.setAnalyticsCollectionEnabled(true)
+//    }
 
 }

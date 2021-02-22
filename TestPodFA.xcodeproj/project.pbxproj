@@ -475,6 +475,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = TestPodFA/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,6 +518,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = TestPodFA/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
